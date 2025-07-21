@@ -98,3 +98,4 @@ This will launch the API server, Celery worker, and any required services (e.g.,
     - _Check:_ Is there frame-to-frame brightness or color inconsistency?
     - _Enhance:_ Apply temporal smoothing or flicker reduction.
 # VideoEnhancer
+# VideoEnhancer
