@@ -1,0 +1,99 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pyo
+*.pyd
+*.pdb
+*.log
+*.sqlite3
+*.db
+*.DS_Store
+
+# Virtual environments
+venv/
+.env
+.env.*
+.python-version
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Data and outputs
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+*.pt
+*.weights
+*.onnx
+*.pb
+*.tflite
+*.npz
+*.npy
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.old
+*.orig
+*.out
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.flv
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.tiff
+*.svg
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Node/Next.js
+node_modules/
+.next/
+yarn.lock
+package-lock.json
+npm-debug.log
+
+# Test and coverage
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+htmlcov/
+coverage.xml
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Minio/Redis/Other services
+minio/
+redis/
+
+# Misc
+list.txt 
