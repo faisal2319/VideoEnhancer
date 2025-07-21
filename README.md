@@ -65,7 +65,7 @@ git clone https://github.com/xinntao/Real-ESRGAN.git ml/Real-ESRGAN
 
 ```bash
 mkdir -p ml/Real-ESRGAN/weights
-curl -L -o ml/Real-ESRGAN/weights/RealESRGAN_x4plus.pth https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x2plus.pth
+curl -L -o ml/Real-ESRGAN/weights/RealESRGAN_x2plus.pth https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x2plus.pth
 ```
 
 ---
