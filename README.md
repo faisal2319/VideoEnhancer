@@ -51,6 +51,23 @@ docker-compose up --build
 
 This will launch the API server, Celery worker, and any required services (e.g., Redis, Minio).
 
+#### Real-ESRGAN Setup (Required for Enhancement)
+
+Before running enhancements, you need to ensure the Real-ESRGAN model and its weights are available:
+
+1. **Clone the Real-ESRGAN repository** (if not already present):
+
+```bash
+git clone https://github.com/xinntao/Real-ESRGAN.git ml/Real-ESRGAN
+```
+
+2. **Download the pre-trained weights:**
+
+```bash
+mkdir -p ml/Real-ESRGAN/weights
+curl -L -o ml/Real-ESRGAN/weights/RealESRGAN_x4plus.pth https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x2plus.pth
+```
+
 ---
 
 ## Usage
@@ -97,5 +114,7 @@ This will launch the API server, Celery worker, and any required services (e.g.,
 10. **Flicker (for video)**
     - _Check:_ Is there frame-to-frame brightness or color inconsistency?
     - _Enhance:_ Apply temporal smoothing or flicker reduction.
+
 # VideoEnhancer
+
 # VideoEnhancer
